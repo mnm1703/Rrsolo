@@ -23,17 +23,19 @@
     <h2>JavaScript can change HTML attribute values.</h2>
     <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+    <button type="button" onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
       Turn On The Light
     </button>
 
     <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
-    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
+    <button type="button" onclick="document.getElementById('myImage').src='pic_bulboff.gif'">
       Turn Off The Light
     </button>
 
-  <!---->
+    <!--js changes html styles(css)-->
+    <p id="demo2">JavaScript can change the style of an HTML element.</p>
+    <button type="button" onclick="document.getElementById('demo2').style.fontSize='47px'">Click Me!</button>
 
   </body>
 </html>
