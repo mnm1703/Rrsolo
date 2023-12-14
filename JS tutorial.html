@@ -2,7 +2,7 @@
 <html>
   <body>
 
-  <!--JS Home-->
+  <!---JS Home--->
     <h2>My First js Code</h2>
 
     <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
@@ -11,7 +11,7 @@
     <p id="demo"></p>
   
 
-  <!--JS Intro-->
+  <!---JS Intro--->
     <h2>What can JS do?</h2>
     <p id="demo1"> JS can change HTML content</p>
 
@@ -19,7 +19,7 @@
       Click ME!
     </button>
 
-    <!---js changes html attributs--->
+    <!--js changes html attributs-->
     <h2>JavaScript can change HTML attribute values.</h2>
     <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
@@ -37,5 +37,15 @@
     <p id="demo2">JavaScript can change the style of an HTML element.</p>
     <button type="button" onclick="document.getElementById('demo2').style.fontSize='69px'">Click Me!</button>
 
+    <!--js hides html elements-->
+    <p id="demo3">JavaScript can hide HTML elements.</p>
+    <button type="button" onclick="document.getElementById('demo3').style.display='none'">Click Me!</button>
+    
+    <!--js shows html elements-->
+    <p>JavaScript can show hidden HTML elements.</p>
+    <p id="demo4" style="display:none;">Helllo JS!</p>
+    <button type="button" onclick="document.getElementById('demo4').style.display='block'">
+      Click Me!
+    </button>
   </body>
 </html>
