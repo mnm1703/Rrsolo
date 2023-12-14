@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+  <head>
+  <!---js in head--->
+    <script>
+     function myfunction() {
+      document.getElementById('demo6').innerHTML = "Paragraph changed"
+      }
+    </script>
+  </head>
   <body>
 
   <!---JS Home--->
@@ -59,8 +67,9 @@
     <script>
       document.getElementById('demo5').innerHTML ='My first JS'
     </script>
-
-    <!--js in head-->
-    
+    <br>
+    <h2>Demo JS in Head</h2>  
+    <p id="demo6">A Paragraph.</p>
+    <button type="button" onclick="myfunction()">Try it</button>
   </body>
 </html>
