@@ -61,15 +61,27 @@
     You can place any number of scripts in an HTML document.
     Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.-->
 
-    <!--js in script tag-->
+    <!--js in <script> tag-->
     <h2>JavaScript in Body</h2>
     <p id="demo5"></p>
     <script>
       document.getElementById('demo5').innerHTML ='My first JS'
     </script>
+
     <br>
+    
     <h2>Demo JS in Head</h2>  
     <p id="demo6">A Paragraph.</p>
     <button type="button" onclick="myfunction()">Try it</button>
+
+    <!--js in body-->
+    <h2>Demo JS in body</h2>
+    <p id="demo7">Another paragraph</p>
+    <button type="button" onclick="myfunction1()">Try it!</button>
+    <script>
+      function myfunction1() {
+        document.getElementById("demo7").innerHTML = "Another paragraph changed."
+      } 
+    </script>
   </body>
 </html>
