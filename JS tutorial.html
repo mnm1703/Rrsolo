@@ -2,11 +2,11 @@
 <html>
   <head>
   <!---js in head--->
-  <script src="myscript.js">
+    <!--<script src="myscript.js">
     function myfunction() {
      document.getElementById('demo8').innerHTML = "Paragraph changed."
      }
-   </script>
+    </script>a little confused here-->
     <script>
       function myfunction() {
       document.getElementById('demo6').innerHTML = "Paragraph changed."
@@ -103,32 +103,36 @@
         Without any path-->
 
   <!---JS Output--->
-    <!--using innerhtml-->
-    <h3>Js displays data using innerHTML</h3>
-    <p id="demo9">6+9</p>
-    <script> document.getElementById("demo9").innerHTML = 6 + 9; </script>
+   <!--using innerhtml-->
+   <h3>Js displays data using innerHTML</h3>
+   <p id="demo9">6+9</p>
+   <script> document.getElementById("demo9").innerHTML = 6 + 9; </script>
 
-    <!--using document.write()-->
-    <h3>Js displays data using document.write()</h3>
-    <p>Never call document.write after the document has finished loading. It will overwrite the whole document.</p>
-    <script> document.write(4 + 7) </script>
-    <br>
-    <h3>Let's see what happens</h3>
-    <p>You should never use (doc.write) to a button</p>
-    <button type="button" onclick="document.write(66 + 3)">I dare you!</button>
+   <!--using document.write()-->
+   <h3>Js displays data using document.write()</h3>
+   <p>Never call document.write after the document has finished loading. It will overwrite the whole document.</p>
+   <script> document.write(4 + 7) </script>
+   <br>
+   <h3>Let's see what happens</h3>
+   <p>You should never use (doc.write) to a button</p>
+   <button type="button" onclick="document.write(66 + 3)">I dare you!</button>
 
-    <!--using window.alert()-->
-    <script> window.alert(Welcome aboard sailor) </script>
-    <!--You can skip the window keyword.
-    In JavaScript, the window object is the global scope object. This means that variables, properties, and methods by default belong to the window object. This also means that specifying the window keyword is optional-->
-    <!--& I'm skipping "console.log()"-->
+   <!--using window.alert()-->
+   <script> window.alert(Welcome) </script>
+   <!--You can skip the window keyword.
+   In JavaScript, the window object is the global scope object. This means that variables, properties, and methods by default belong to the window object. This also means that specifying the window keyword is optional-->
+   <!--& I'm skipping "console.log()"-->
 
-    <!--using JavaScript Print-->
-    <!--JavaScript does not have any print object or print methods.
-    You cannot access output devices from JavaScript.
-    The only exception is that you can call the window.print() method in the browser to print the content of the current window.-->
-    <p>If you wanna print this page then click the button below.</p>
-    <button type="button" onclick="window.print()">Print this page</button>
+   <!--using JavaScript Print-->
+   <!--JavaScript does not have any print object or print methods.
+   You cannot access output devices from JavaScript.
+   The only exception is that you can call the window.print() method in the browser to print the content of the current window.-->
+   <p>If you wanna print this page then click the button below.</p>
+   <button type="button" onclick="window.print()">Print this page</button>
+
+  <!---JS Statements--->
+  
+   <!----> 
 
   </body>
 </html>
