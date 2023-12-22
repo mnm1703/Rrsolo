@@ -123,6 +123,10 @@ section {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+.s-m-b {
+    display: flex;
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
