@@ -125,6 +125,7 @@ section {
 
 .s-m-b {
     display: flex;
+    align-items: end;
 }
 
 .btn {
